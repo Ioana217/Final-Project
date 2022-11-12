@@ -5,19 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="624a6750-19d1-4008-9f74-8fc21afcc076" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VetShop/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VetShop/Appoimant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VetShop/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VetShop/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VetShop/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VetShop/Veterinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LibraryShop/Books.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LibraryShop/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LibraryShop/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LibraryShop/Shelf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VetShop/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VetShop/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VetShop/Appoimant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VetShop/Appoimant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VetShop/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VetShop/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VetShop/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VetShop/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VetShop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VetShop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VetShop/Veterinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VetShop/Veterinary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -44,22 +45,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
-  },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "XML"
-    ]
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Ioana\Desktop\JavaAdvancedFeatures-master\Final-Project\src\main\resources" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VetShop.Main" />
+      <module name="Final-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="VetShop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -82,5 +96,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

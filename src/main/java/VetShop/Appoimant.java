@@ -5,13 +5,21 @@ public class Appoimant {
     private String data;
     private String hour;
     private Animal animal;
-    private Veterinary veterinary;
+    private String veterinary;
     private String description;
+
+    public Appoimant(int id, String data, String hour, Animal animal, String veterinary, String description) {
+        this.id = id;
+        this.data = data;
+        this.hour = hour;
+        this.animal = animal;
+        this.veterinary = veterinary;
+        this.description = description;
+    }
 
     public int getId() {
         return id;
     }
-
 
     public void setId(int id) {
         this.id = id;
@@ -49,12 +57,13 @@ public class Appoimant {
         this.description = description;
     }
 
-    public Veterinary getVeterinary() {
-        return veterinary;
+    public void setVeterinary(String veterinary) {
+        this.veterinary = veterinary;
     }
 
-    public void setVeterinary(Veterinary veterinary) {
-        this.veterinary = veterinary;
+    public String getVeterinary() {
+        return veterinary;
+    }
     }
 //
     //id
@@ -63,4 +72,5 @@ public class Appoimant {
     //Animalul pentru care este programarea
     //Rezumat probleme ale animalului
     //pt fiecare clasa getter si setter, se creaza obiectele si se insereaza in baza de date , o tabela pt fiecaare
-}
+
+

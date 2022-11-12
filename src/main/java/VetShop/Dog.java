@@ -8,8 +8,6 @@ public class Dog extends Animal {
         super(id, name, age,gender);
     }
 
-
-
     public String getRace() {
         return race;
     }

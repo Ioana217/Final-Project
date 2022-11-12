@@ -1,16 +1,26 @@
 package VetShop;
 
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @AllArgsConstructor
+@Entity
 @Data
 
-
-public  abstract class Animal {
+public abstract class Animal {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(length = 32, nullable = false)
     private int id;
+
+    @Column(name = "name")
     private String name;
+
+    @Column(name = "age")
     private int age;
+
+    @Column(name = "gender")
     private String gender;
 
     public int getId() {
@@ -45,10 +55,5 @@ public  abstract class Animal {
         this.gender = gender;
     }
 
-//Id
-    //Nume
-    //varsta
-    //gen(m,f)
-    //Descriere( se extinde  la o alta clasa pisoica, caine  si se poate adauga , rasa ...)
-
 }
+

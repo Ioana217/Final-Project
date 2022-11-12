@@ -5,6 +5,12 @@ public class Veterinary {
     private int id;
     private String specialization;
 
+    public Veterinary(String name, int id, String specialization) {
+        this.name = name;
+        this.id = id;
+        this.specialization = specialization;
+    }
+
     public String getName() {
         return name;
     }
@@ -28,8 +34,8 @@ public class Veterinary {
     public void setSpecialization(String specialization) {
         this.specialization = specialization;
     }
-    //Nume
 
+    //Nume = Valentin
     //Id
     //Specializare(doar caini, pisici)
 }
